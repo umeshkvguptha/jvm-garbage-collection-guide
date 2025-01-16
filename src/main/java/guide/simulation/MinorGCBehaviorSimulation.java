@@ -1,3 +1,5 @@
+package guide.simulation;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +22,7 @@ public class MinorGCBehaviorSimulation {
             minorGCList.add(new byte[1024]); // 1 KB objects
             if (i % 1000 == 0) {
                 System.out.println("Allocated " + i + " KB so far...");
-                sleep(50); // Add a delay to observe GC activity.
+                //sleep(50); // Add a delay to observe GC activity.
             }
         }
     }
