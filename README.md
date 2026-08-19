@@ -1,7 +1,5 @@
 # JVM & Garbage Collection Guide
 
-*Last updated: August 2026 — verified against Java 25 LTS (current LTS, released Sept 16, 2025) and Java 26 (latest non-LTS, March 2026).*
-
 ## **Overview**
 
 The **Java Virtual Machine (JVM)** is what lets Java bytecode run on any platform. It provides runtime services such as memory management, security, and garbage collection (GC).
